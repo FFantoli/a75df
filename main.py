@@ -3,6 +3,8 @@ import datetime
 from decimal import Decimal
 
 header = st.container()
+caption = st.container()
+markdown = st.container()
 kontonummer1, betrag, gebuehr = st.columns(3)
 auswahl = st.container()
 r_col1, r_col2, = st.columns(2)
@@ -11,8 +13,15 @@ r_col5, r_col6, r_col7 = st.columns(3)
 generatedFile =st.container()
 
 with header:
-    st.title('Rückläufer Test')
+    st.title('Rückläufer Generator')
+   
+with caption:
+    st.caption('by Fabio Fantoli')
 
+with markdown:
+    st.markdown('Felder wie benötigt ausfüllen und untenstehenden Text in einter .txt Datei speichern und einspielen')
+    
+  
 with kontonummer1:
     ruck_iban1 = st.text_input('IBAN','DE35664900000022805304')
     
