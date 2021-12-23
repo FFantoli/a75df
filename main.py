@@ -181,7 +181,7 @@ with generatedFile:
     st.write(":28C:00001/1")
     st.write(":60F:C190501EUR0,00")
     st.write(":61:"+r_yearV+r_monthV+r_dayV+r_monthB+r_dayB+"D"+r_summe+"NRTINONREF/OCMT/EUR"+ruck_betrag+"//CHGS/EUR"+ruck_gebuehr+"/")
-    st.write(":86:109?00LS RUECKBELASTUNG?109250?20EREF+"+ruck_ref+"?22MREF+"+ruck_mandref+"?23CRED+DE98ZZZ09999999999?24COAM+     "+ruck_gebuehr+"?250AMT+     "+ruck_betrag+"?26SVWZ+ RUECKLASTSCHRIFT?27"+zweitesWort+"?28ZINSAUSGLEICH-FREMDENTGELT?29     "+ruck_gebuehr+" EURO?30"+r_bic+"?31"+r_konto2option+"?32"+r_kontoinhaber+"?34"+erstesWort+"?60EIGENENTGELT 00000,00 EURO")
+    st.write(":86:109?00LS RUECKBELASTUNG?109250?20EREF+"+ruck_ref+"?22MREF+"+ruck_mandref+"?23CRED+DE98ZZZ09999999999?24COAM+     "+ruck_gebuehr+"?25OAMT+     "+ruck_betrag+"?26SVWZ+ RUECKLASTSCHRIFT?27"+zweitesWort+"?28ZINSAUSGLEICH-FREMDENTGELT?29     "+ruck_gebuehr+" EURO?30"+r_bic+"?31"+r_konto2option+"?32"+r_kontoinhaber+"?34"+erstesWort+"?60EIGENENTGELT 00000,00 EURO")
     st.write(':62F:C180716EUR0')
     
     
