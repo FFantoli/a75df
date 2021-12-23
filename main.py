@@ -42,7 +42,7 @@ r_summe =r_summe.replace(".",",")
     
 with auswahl:
     option =st.selectbox(
-    'Rückläufergrund?',
+    'Rückläufergrund',
     ('901:   Kontonummer fehlerhaft (ungültige IBAN)','902:   Konto aufgelöst','903:   Konto gesperrt','904:   Zahlungsart für diesen Kontotyp nicht zugelassen','905:   Transaktions-Code unzulässig oder falsches Dateiformat','906:   Rückgabe mangels Deckung','907:   Doppeleinreichung','908:   Adresse des Zahlungsempfängers fehlt oder ist unvollständig','909:   Kein gültiges Mandat','910:   InMandate Fehlerhafte oder unvollständige Mandats-information','911:   Absender unbekannt/Falsche Creditor ID','912:   Lastschriftwiderspruch durch den Zahlungspflichtigen','913:   Kontoinhaber verstorben','914:   Sonstige Gründe','915:   Bankidentifikationscode fehlerhaft ungültige BIC','916:   Cut-Off-Zeit vor Dateiempfang erreicht','917:   Ablehnung auf Grund von aufsichtsrechtlichen Vorschriften','930:   Zahlungpflichtiger ist ein Verbraucher (kein Kommerzkunde)','931:   Falscher Auftragstyp / Falsche Lastschriftart'))
     
     
